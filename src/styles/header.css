@@ -1,0 +1,268 @@
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  /* Add any additional styles you want for the header */
+}
+
+.first-box {
+    background-color: #40A3FF;
+    padding-top: 18px;
+  }
+  
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  }
+  
+  .logo {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .logo img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 450px;
+    cursor: pointer;
+    width: 100%;
+  
+    box-sizing: border-box;
+  }
+  
+  .search-bar input {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 30px;
+    width: 100%;
+    max-width: 550px;
+    border: 2px solid #1F41BC;
+  }
+    
+  .account {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .account i {
+    margin-right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    margin-right: 30px;
+    background-color: #1F41BC;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    /* Adjust the padding as needed */
+    text-decoration: none;
+    margin-left: 10px;
+    /* Adjust the margin as needed */
+    color: #ffffff;
+    border: 2px solid #1F41BC;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    margin-right: 30px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    /* Adjust the padding as needed */
+    text-decoration: none;
+    border-radius: 5px;
+    /* Adds rounded corners */
+    margin-left: 10px;
+    /* Adjust the margin as needed */
+    color: #1F41BC;
+    border: 2px solid #1F41BC;
+    cursor: pointer;
+  }
+  
+  .signup-button {
+    margin-right: 10px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    /* Adjust the padding as needed */
+    text-decoration: none;
+    border-radius: 5px;
+    /* Adds rounded corners */
+    margin-left: 10px;
+    /* Adjust the margin as needed */
+    color: #1F41BC;
+    border: 2px solid #1F41BC;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    margin-right: 10px;
+    background-color: #1F41BC;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    /* Adjust the padding as needed */
+    text-decoration: none;
+    border-radius: 5px;
+    /* Adds rounded corners */
+    margin-left: 10px;
+    /* Adjust the margin as needed */
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  
+.secondary-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    position: absolute;
+    top: 1;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    
+   
+  }
+  
+  .secondary-navigation button {
+    margin: 0 10px;
+    text-decoration: none;
+   
+  }
+  .secondary-navigation button:hover{
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: #40A3FF;
+    border:2px solid #40A3FF;
+    color: white;
+  }
+  
+  .secondary-navigation button {
+    margin-right: 10px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    /* Adjust the padding as needed */
+    text-decoration: none;
+    border-radius: 5px;
+    /* Adds rounded corners */
+    margin-left: 10px;
+    /* Adjust the margin as needed */
+    color: #1F41BC;
+    border: 2px solid #1F41BC;
+    cursor: pointer;
+  }
+
+
+  .fixed-bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white; /* Replace with your desired background color */
+    border-top: 1px solid #ddd;
+    text-align: center;
+    display: none;
+    padding: 10px;
+  }
+  
+  .fixed-bottom-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .fixed-bottom-navigation ul li {
+    display: inline-block;
+  }
+  
+  .fixed-bottom-navigation ul li a {
+    display: block;
+    color: #40A3FF;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  @media (max-width: 800px) {
+    .fixed-bottom-navigation {
+      display: block;
+    }
+  }
+
+
+  @media (max-width: 1065px) {
+    .logo {
+      text-align: center;
+      order: 2;
+    }
+  
+    .search-bar {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: block;
+      order: 1;
+      font-size: 30px;
+    }
+  
+    .account {
+      order: 4;
+    }
+  
+    .account i {
+      display: none;
+    }
+  
+    .login-button,
+    .signup-button {
+      display: none;
+    }
+  
+    .secondary-navigation{
+      display: none;
+    }
+  }
+
+
+
+ 
+
+
+
+

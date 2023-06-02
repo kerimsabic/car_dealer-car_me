@@ -1,0 +1,154 @@
+ .pupular-vehicles h3 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+     text-align: center;
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 42px;
+     color: #263544;
+ }
+
+ .pupular-vehicles h3 {
+     padding-top: 50px;
+     padding-bottom: 20px;
+     text-align: center;
+     font-family: 'Lato';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 42px;
+     color: #263544;
+ }
+
+ .popular-cars {
+     padding: 20px 0;
+     align-content: center;
+     background-color: #E7E7E7;
+ }
+
+
+ .popular-cars .container2 {
+     display: none;
+ }
+
+ .popular-cars .container {
+     display: flex;
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin:auto
+ }
+
+
+
+ 
+
+
+
+ /*.popular-cars .card {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        border-radius: 15px;
+        width: 200px;
+        height: 350px;
+        align-content: center;
+    }
+
+    .popular-cars .card .img img {
+        padding: 10px;
+        height: 150px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        width: 100%;
+    
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .popular-cars .card .price h3 {
+        padding-left: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #FF5C00;
+    }
+    
+    .popular-cars .card .price p {
+        padding-left: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #000000;
+    }
+    
+    
+    .popular-cars .info-container {
+        display: flex;
+        align-items: center;
+        height: 20px;
+        margin-top: 10px;
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+    
+    .eye-icon {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        padding: 5px 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        height: 20px;
+    }
+    
+    .eye-icon i {
+        font-weight: bold;
+        margin-right: 5px;
+    }
+    
+    .info-number {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    
+    .icons span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    
+    .icons i {
+        font-size: 10px;
+        padding: 15px;
+        font-family: 'Lato';
+    }
+    
+    .divider {
+        border-top: 3px solid #000000;
+        margin: 10px 0;
+    }
+    
+    .line-container {
+        
+        justify-content: center;
+        align-items: center;
+      
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+    }
+    
+    .line-container .custom-line {
+       
+        justify-content: center;
+        align-items: center;
+        width: 480px;
+        height: 4px;
+        background-color: #000;
+    }*/

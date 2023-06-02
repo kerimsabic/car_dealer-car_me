@@ -1,0 +1,151 @@
+.upper-part{
+    margin-top: 500px;
+}
+
+.title{
+    text-align: center;
+    background-color: #40A3FF;
+    color: black;
+    width: 300px;
+}
+.icon{
+    text-align: end;
+}
+.image-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  justify-content: center;
+}
+.image-container img{
+    width: 600px;
+    height: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+
+.eye-icon2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 5px 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    height: 50px;
+}
+
+.eye-icon i {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.info-number {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.eye-icon2 span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.eye-icon2 i {
+    font-size: 20px;
+    padding-right: 10px;
+    font-family: 'Lato';
+}
+
+.price2{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border:  2px solid ;
+}
+
+.price2 h2{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 70px;
+}
+
+.quick-info{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+    background-image: url('../assets/detailCarBack.jpg');
+    padding: 50px;
+}
+.special-container2{
+    width: 100%;
+    height: 100%;
+    
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+box-shadow: 0px 4px 4px #40A3FF;
+    background-image: url('../assets/detailCarBack2.jpg');
+}
+
+.special-row{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.special-row .header2{
+    background-color: #40A3FF;
+}
+
+.special-row  h5{
+    text-align: center;
+}
+.special-row  .my-2{
+    margin: 10px;
+}
+
+.detailed-info{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/detailCarBack.jpg');
+  
+}
+
+.detailed-info .my-2{
+    margin: 50px;
+}
+.car-details .data{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.checkmarks .data{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+}
+.checkmarks .data i{
+    color: green;
+}
+.detailed-info  h5{
+    padding: 10px;
+}

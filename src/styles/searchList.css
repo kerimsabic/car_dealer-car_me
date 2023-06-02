@@ -1,0 +1,68 @@
+.list {
+  display: flex;
+}
+
+.sidebar {
+  margin-top: 300px;
+  width: 30%;
+  padding: 20px;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+
+
+.dropdown {
+  margin-bottom: 15px;
+}
+
+.dropdown .dropdown-toggle {
+  width: 100%;
+  text-align: left;
+}
+
+.container-side {
+  margin-top: 300px;
+
+  padding: 20px;
+
+}
+.container-side-version2{
+  display: none;
+}
+
+/* Styling for form groups and checkboxes */
+.form-group {
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  margin-left: 20px;
+}
+
+.advanced-search-btn h6{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+/* Additional styles for responsiveness */
+@media (max-width: 1000px) {
+  .list {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .container-side {
+   display: none;
+  }
+  .container-side-version2{
+    display: block;
+    margin-top: 300px;
+  }
+}

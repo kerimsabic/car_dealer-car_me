@@ -1,0 +1,118 @@
+.detailed-search{
+  background-color:#E7E7E7;
+}
+ 
+.detailed-search .container{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  top: -200px;
+  position: relative;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.detailed-search .container2{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+
+.container2 .mb-3{
+  width: 150px;
+}
+
+.dropdown{
+  padding: 20px;
+  background-color: white;
+  width: 200px;
+  
+}
+.dropdown button{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  width: 150px;
+  border: 1px solid black;
+}
+
+.detailed-search .container2 input{
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  border: 1px solid black;
+}
+
+.container .search-vehicle {
+  margin-right: 30px;
+  background-color: #1F41BC;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  color: #ffffff;
+  border: 2px solid #1F41BC;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+
+.container .search-vehicle:hover {
+  margin-right: 30px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  /* Adjust the padding as needed */
+  text-decoration: none;
+  border-radius: 5px;
+  /* Adds rounded corners */
+  margin-left: 10px;
+  /* Adjust the margin as needed */
+  color: #1F41BC;
+  border: 2px solid #1F41BC;
+  cursor: pointer;
+}
+
+.container2 a{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.cardbody .moreLabes{
+  display: flex;
+  justify-content: center;
+}
+
+.cardbody .moreLabes .formgroup1{
+  margin-right: 20px;
+}
+
+.cardbody .morecheckboxes{
+  display: flex;
+  justify-content: center;
+
+}
+
+.expanded-collapse{
+  width: 100%;
+}
+.expanded-card{
+  border: 0px;
+}
+
+@media (max-width: 1000px) {
+  .detailed-search {
+    display: none;
+  }
+}
+
+
+  

@@ -1,0 +1,123 @@
+
+.garage-icon{
+    text-align: center;
+    font-size: 80px;
+    color: #40A3FF;
+    margin-top: -30px;
+
+  }
+  
+  .dealers{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .dealers h3{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+color: #263544;
+  }
+  
+  .dealers-icons{
+    background-image: url('../assets/login-background.png');
+    background-size:cover;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 35vh;
+    
+  }
+  .dealers-icons .container{
+    position: relative;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: -50px;
+  }
+  .dealers-icons img{
+    height: 150px;
+      width: 170px;
+      border-radius: 50%;
+      margin: 10px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.9));
+  }
+  
+  
+  .line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top:10px
+  }
+  
+  .line-container .custom-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 4px;
+    background-color: #000;
+    
+  }
+  .line-container .custom-line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 4px;
+    background-color: #000;
+  }
+  .line-container .custom-line3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 4px;
+    background-color: #000;
+  }
+
+  @media (max-width:1000px) {
+    .dealers-icons img{
+      height: 60px;
+      width: 80px;
+      border-radius: 50%;
+      margin:0px;
+  
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.9));
+    }
+    .dealers-icons{
+      background-image: url('../assets/login-background.png');
+      background-size:cover;
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+      
+    }
+  }
+
+  @media (max-width:300px) {
+    .dealers-icons img{
+      height: 40px;
+      width: 60px;
+      border-radius: 50%;
+      margin:0px;
+  
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.9));
+    }
+
+    .dealers-icons{
+      background-image: url('../assets/login-background.png');
+      background-size:cover;
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+      
+    }
+  }

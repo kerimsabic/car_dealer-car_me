@@ -1,0 +1,81 @@
+/* CSS File */
+
+.welcome {
+    text-align: center;
+    padding: 30px;
+    background-color: #E7E7E7;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .question-item {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    
+    
+  }
+ 
+  
+  .line {
+    position: relative;
+    top: 30%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #000000;
+  }
+  
+  .welcome i {
+    font-size: 55px;
+    padding-bottom: 20px;
+  }
+  
+  .question-item p {
+    margin-bottom: 0;
+  }
+  
+  .welcome h1{
+    font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  color: #1F41BC;
+  
+  }
+  .welcome h4{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
+.question-item p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+}
+
+  @media (max-width: 576px) {
+    .question-item {
+      margin-bottom: 20px;
+    }
+
+    .welcome h1{
+      font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #1F41BC;
+    
+    }
+
+    .welcome h4{
+      color: #000000;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+    }
+  }
+  
