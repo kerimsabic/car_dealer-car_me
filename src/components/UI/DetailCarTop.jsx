@@ -26,7 +26,6 @@ const DetailCarTop = () => {
 
             <div className="image-container">
                 <img src={GLA} alt="" />
-
             </div>
 
 

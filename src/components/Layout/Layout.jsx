@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <Fragment>
       <Header />
-      <div>
+      <div style={{ marginTop: '118px', width: '100%' }}>
         <Routers />
       </div>
       <Footer />

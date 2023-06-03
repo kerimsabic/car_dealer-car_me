@@ -22,14 +22,20 @@ const partners = () => {
 
 
                 <div class="dealers-icons">
-                    <div class="container">
-                        <div class="row">
-                            <img src={Kramar} alt="" />
-                            <img src={Kramar} alt="" />
-                            <img src={Kramar} alt="" />
-                            <img src={Kramar} alt="" />
-                            <img src={Kramar} alt="" />
-                        </div>
+                    <div class="icon">
+                        <img src={Kramar} alt="" />
+                    </div>
+                    <div class="icon">
+                        <img src={Kramar} alt="" />
+                    </div>
+                    <div class="icon">
+                        <img src={Kramar} alt="" />
+                    </div>
+                    <div class="icon">
+                        <img src={Kramar} alt="" />
+                    </div>
+                    <div class="icon">
+                        <img src={Kramar} alt="" />
                     </div>
                 </div>
             </div>

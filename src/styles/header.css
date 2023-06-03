@@ -6,6 +6,7 @@
   left: 0;
   right: 0;
   z-index: 999;
+  width: 100%;
   /* Add any additional styles you want for the header */
 }
 
@@ -15,23 +16,32 @@
   }
   
 .navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #ffffff;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px 0 10px;
+    background-color: #ffffff;
+    width: 100%;
+    height:100px;
   }
   
   .logo {
-    text-align: center;
     cursor: pointer;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+
+    @media (max-width: 800px) {
+      width: 200px;
+      height: 70px;
+    }
   }
   
   .logo img {
-    width: 300px;
-    max-width: 100%;
-    height: auto;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
   }
   
   .hamburger-menu {
@@ -127,12 +137,9 @@
     background-color: #1F41BC;
     text-transform: uppercase;
     padding: 10px 20px;
-    /* Adjust the padding as needed */
     text-decoration: none;
     border-radius: 5px;
-    /* Adds rounded corners */
     margin-left: 10px;
-    /* Adjust the margin as needed */
     color: #ffffff;
     cursor: pointer;
   }
@@ -152,37 +159,71 @@
     margin: auto;
     background-color: #ffffff;
     border-radius: 0 0 10px 10px;
-    
-   
+
+    @media (max-width: 1065px) {
+      display:flex;
+      flex-direction: column;
+      left: -300px;
+      right: auto;
+      height: 100vh;
+      align-items: start;
+      justify-content: start;
+      width: 300px;
+      padding: 0;
+      transition: 300ms ease;
+    }
+  }
+
+  .secondary-navigation.active{
+    left: 0;
+  }
+
+  .secondary-navigation a{
+    @media (max-width: 1065px){
+      width: 100%;
+    }
   }
   
   .secondary-navigation button {
     margin: 0 10px;
     text-decoration: none;
-   
-  }
-  .secondary-navigation button:hover{
-    margin: 0 10px;
-    text-decoration: none;
-    background-color: #40A3FF;
-    border:2px solid #40A3FF;
-    color: white;
-  }
-  
-  .secondary-navigation button {
     margin-right: 10px;
     background-color: #ffffff;
     text-transform: uppercase;
     padding: 10px 20px;
-    /* Adjust the padding as needed */
     text-decoration: none;
     border-radius: 5px;
-    /* Adds rounded corners */
     margin-left: 10px;
-    /* Adjust the margin as needed */
     color: #1F41BC;
     border: 2px solid #1F41BC;
     cursor: pointer;
+  }
+
+  @media (max-width: 1065px) {
+    .secondary-navigation button {
+      border: none;
+      padding: 2rem;
+      width: 100%;
+      border-top:1px solid #40A3FF;
+      margin: 0;
+      color: #40A3FF;
+      font-weight: 500;
+      border-radius: 0;
+    }
+    .secondary-navigation button:focus{
+      margin: 0;
+      text-decoration: none;
+      background-color: #40A3FF;
+      border:2px solid #40A3FF;
+      color: white;
+    }
+  }
+
+  .secondary-navigation button:hover{
+    text-decoration: none;
+    background-color: #40A3FF;
+    border:2px solid #40A3FF;
+    color: white;
   }
 
 
@@ -251,10 +292,6 @@
   
     .login-button,
     .signup-button {
-      display: none;
-    }
-  
-    .secondary-navigation{
       display: none;
     }
   }

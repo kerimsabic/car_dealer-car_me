@@ -12,30 +12,38 @@
     margin-bottom: 0px;
     text-align: center;
   }
+
   .dealers h3{
     font-family: 'Lato';
-font-style: normal;
-font-weight: 900;
-font-size: 40px;
-color: #263544;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #263544;
   }
   
   .dealers-icons{
     background-image: url('../assets/login-background.png');
     background-size:cover;
     display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 35vh;
-    
-  }
-  .dealers-icons .container{
-    position: relative;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    top: -50px;
+    align-items: center;
+    height: 35vh;
+    gap: 2rem;
   }
+
+  .dealers-icons .icon{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+
+  .dealers-icons .icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
   .dealers-icons img{
     height: 150px;
       width: 170px;
@@ -81,23 +89,27 @@ color: #263544;
     background-color: #000;
   }
 
-  @media (max-width:1000px) {
-    .dealers-icons img{
-      height: 60px;
-      width: 80px;
-      border-radius: 50%;
-      margin:0px;
-  
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.9));
-    }
+  @media (max-width:1200px) {
     .dealers-icons{
-      background-image: url('../assets/login-background.png');
-      background-size:cover;
-      display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 30vh;
-      
+      height: 30vh;
+    }
+    .dealers-icons .icon{
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  @media (max-width:700px) {
+    .dealers-icons{
+      flex-wrap: wrap;
+    }
+    .dealers-icons .icon{
+      width: 80px;
+      height: 80px;
+    }
+    .dealers h3{
+      font-weight: 500;
+      font-size: 35px;
     }
   }
 

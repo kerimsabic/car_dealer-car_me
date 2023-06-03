@@ -6,26 +6,23 @@ import Types from '../components/UI/types'
 import Devider from '../components/UI/devider'
 import CarItem from '../components/UI/carItem'
 import Partners from '../components/UI/partners'
-import Car  from '../components/UI/singleCar'
-
-
+import "../../src/styles/homeimage.css";
 
 const Home = () => {
   return (
-  <div>
-    <div className="image-container">
-      <img src={Background} alt="Image" className="responsive-image" style={{ width: '100%' }}/></div>
+    <div>
+      <div className="img-container">
+        <img src={Background} alt="Image" className="responsive-image" style={{ width: '100%' }}/>
+      </div>
       <SearchBox />
       <Welcomebox />
       <Devider />
-      <  Types />
+      <Types />
       <Devider />
       <CarItem/>
       <Devider />
-     <Partners/> 
-     <Devider />
-
-    
+      <Partners/> 
+      <Devider />
     </div> 
   )
 }

@@ -31,13 +31,33 @@
      display: none;
  }
 
- .popular-cars .container {
-     display: flex;
+ .popular-cars-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
      justify-content: center;
+     align-items: center;
+     width: 60%;
      margin-left: auto;
      margin-right: auto;
-     margin:auto
+
+     @media (max-width: 1065px){
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+     @media (max-width: 800px){
+        grid-template-columns: repeat(1, 1fr);
+    }
  }
+
+ .popular-cars-container .car-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+
+ 
 
 
 

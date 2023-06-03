@@ -8,9 +8,6 @@ const welcomebox = () => {
             <h4>Best car website on the market</h4>
             <h1>Welcome to CarMe</h1>
 
-
-
-
             <div class="questions">
 
                 <div class="container">
