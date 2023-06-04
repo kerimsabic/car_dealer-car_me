@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import {  FormGroup, Label, Input } from 'reactstrap';
 import { useNavigate } from 'react-router-dom';
 
 import TwoCars from '../UI/twocars';
@@ -54,17 +54,16 @@ const SearchList = () => {
         setSelectedTransmission(transmission);
     };
 
-    const handleSearch = () => {
-        navigate('/cars');
-    };
+    
 
     return (
+        <div className="empty-div">
         <div className="list">
             <div className="sidebar">
                 <div className="menu">
                     
-                    <div className="dropdown">
-                        <Dropdown isOpen={makeDropdownOpen} toggle={toggleMakeDropdown}>
+                    <div className="dropdown-side">
+                        <Dropdown isOpen={makeDropdownOpen} toggle={toggleMakeDropdown} className='dropdown-side2'>
                             <DropdownToggle caret>Make: {selectedMake}</DropdownToggle>
                             <DropdownMenu>
                                 <DropdownItem onClick={() => handleMakeSelect('All')}>All</DropdownItem>
@@ -75,7 +74,7 @@ const SearchList = () => {
                                 <DropdownItem onClick={() => handleMakeSelect('Peugeot')}>Peugeot</DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
-                        <Dropdown isOpen={modelDropdownOpen} toggle={toggleModelDropdown}>
+                        <Dropdown isOpen={modelDropdownOpen} toggle={toggleModelDropdown}className='dropdown-side2'>
                             <DropdownToggle caret>Model: {selectedModel}</DropdownToggle>
                             <DropdownMenu>
                                 <DropdownItem onClick={() => handleModelSelect('All')}>All</DropdownItem>
@@ -86,7 +85,7 @@ const SearchList = () => {
                                 <DropdownItem onClick={() => handleModelSelect('A7')}>A7</DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
-                        <Dropdown isOpen={transmissionDropdownOpen} toggle={toggleTransmissionDropdown}>
+                        <Dropdown isOpen={transmissionDropdownOpen} toggle={toggleTransmissionDropdown}className='dropdown-side2'>
                             <DropdownToggle caret>
                                 Transmission: {selectedTransmission}
                             </DropdownToggle>
@@ -96,7 +95,7 @@ const SearchList = () => {
                                 <DropdownItem onClick={() => handleTransmissionSelect('Manual')}>Manual</DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
-                        <Dropdown isOpen={fuelDropdownOpen} toggle={toggleFuelDropdown}>
+                        <Dropdown isOpen={fuelDropdownOpen} toggle={toggleFuelDropdown}className='dropdown-side2'>
                             <DropdownToggle caret>
                                 Fuel: {selectedFuel}
                             </DropdownToggle>
@@ -108,11 +107,11 @@ const SearchList = () => {
                                 <DropdownItem onClick={() => handleFuelSelect('Electric')}>Electric</DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
-                        <FormGroup>
+                        <FormGroup className='input-fields'>
                             <Label for="year">Year</Label>
-                            <Input id="year" name="year" placeholder="from" type="number" />
+                            <Input id="year" name="year" placeholder="from" type="number"  className='input-box2'/>
                         </FormGroup>
-                        <FormGroup>
+                        <FormGroup className='input-fields'>
                             <Label for="exampleNumber">
                                 Mileage
                             </Label>
@@ -124,7 +123,7 @@ const SearchList = () => {
                             />
                         </FormGroup>
 
-                        <FormGroup>
+                        <FormGroup className='input-fields'>
                             <Label for="exampleNumber">
                                 Price
                             </Label>
@@ -198,7 +197,7 @@ const SearchList = () => {
             
 
         </div>
-
+</div>
     );
 };
 

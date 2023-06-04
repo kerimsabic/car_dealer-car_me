@@ -1,9 +1,14 @@
+.empty-div{
+  margin-top: 300px;
+  height: 70px;
+  width: 100%;
+}
 .list {
   display: flex;
 }
 
 .sidebar {
-  margin-top: 300px;
+  margin-top: 20px;
   width: 30%;
   padding: 20px;
 }
@@ -24,13 +29,14 @@
 }
 
 .container-side {
-  margin-top: 300px;
+  margin-top: 20px;
 
   padding: 20px;
 
 }
 .container-side-version2{
   display: none;
+  margin-top: ;
 }
 
 /* Styling for form groups and checkboxes */
@@ -47,7 +53,20 @@
   color: blue;
 }
 
+.dropdown-side2{
+  width: 245px;
+}
+.input-box2{
+  width: 200px;
+}
+.input-fields{
+  width: 200px;
+}
 
+
+@media (max-width: 1444px) {
+  
+}
 /* Additional styles for responsiveness */
 @media (max-width: 1000px) {
   .list {

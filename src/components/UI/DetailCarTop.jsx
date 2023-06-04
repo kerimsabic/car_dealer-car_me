@@ -6,26 +6,26 @@ import Devider from '../UI/devider'
 
 const DetailCarTop = () => {
     return (
+
         <div className='upper-part'>
 
+            <div className="empty-div2"></div>
+            
             <div className="container3">
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="title">
-                            <h3>Mercedes GLA 220d</h3>
-                        </div>
-                    </div>
-
-                    <div className="col-md-6">
-                        <div className="icon2">
-                            <i class="ri-chat-3-line"></i>
-                        </div>
-                    </div>
+                <div className="title">
+                    <h3>Mercedes GLA 220d</h3>
                 </div>
+                <div className="icon2">
+                    <i class="ri-chat-3-line"></i>
+                </div>
+
             </div>
 
+
             <div className="image-container">
-                <img src={GLA} alt="" />
+                <div className="image-container2">
+                    <img src={GLA} alt="" />
+                </div>
             </div>
 
 
@@ -169,6 +169,7 @@ const DetailCarTop = () => {
 
             <Devider />
             <div className="detailed-info">
+                
                 <Card
                     className="my-2"
                     color="dark"
@@ -178,7 +179,7 @@ const DetailCarTop = () => {
                     }}
                 >
 
-                    <CardBody>
+                    <CardBody className='special-cardBody'>
 
                         <CardText className='car-details'>
                             <div className="data">
@@ -267,6 +268,7 @@ const DetailCarTop = () => {
                 </Card>
             </div>
         </div>
+
     )
 }
 
