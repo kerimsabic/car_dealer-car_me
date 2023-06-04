@@ -57,8 +57,10 @@ const SearchList = () => {
 
 
     return (
-        <div className="empty-div">
+       <div className="div"> 
+       <div className="empty-div"> </div>
             <div className="list">
+                
                 <div className="sidebar">
                     <div className="menu">
 
@@ -227,7 +229,7 @@ const SearchList = () => {
 
 
             </div>
-        </div>
+       </div>
     );
 };
 
