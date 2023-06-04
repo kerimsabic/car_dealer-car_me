@@ -1,12 +1,22 @@
 import React from 'react'
-import '../../styles/login.css'
+import '../../styles/signup.css'
+import Logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom'
+
 
 const signup = () => {
   return (
     <div>
+         <div>
+            <div className="back-container2">
+                <div className="logo-container2">
+                <img src={Logo} alt="" /></div>
+            </div>
+            <div className="back-container">
+
       <div class="form signup">
                 <div class="form-content">
-                    <header>Signup</header>
+                    <header className='header-signup'>Signup</header>
                     <form action="#">
                         <div class="field input-field">
                             <input type="email" placeholder="Email" class="input"/>
@@ -18,9 +28,16 @@ const signup = () => {
                             <input type="password" placeholder="Confirm password" class="password"/>
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
-                        <div class="field button-field">
-                            <button>Signup</button>
+                        <div class="field input-field">
+                            <input type="Address" placeholder="Address" class="input"/>
                         </div>
+                        <div class="field input-field">
+                            <input type="email" placeholder="Phone Number" class="input"/>
+                        </div>
+                        <div class="field button-field">
+                            <Link to='/home'><button>Signup</button></Link>
+                        </div>
+                        
                     </form>
                     <div class="form-link">
                         <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
@@ -40,6 +57,8 @@ const signup = () => {
                     </a>
                 </div>
             </div>
+    </div>
+    </div>
     </div>
   )
 }

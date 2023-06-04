@@ -1,14 +1,6 @@
-
-
-.back-container{
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #4070f4;
-    column-gap: 30px;
-    margin-bottom: 50px;
+.form.signup{
+    opacity: 1;
+    pointer-events: none;
 }
 .back-container2{
     width: 100%;
@@ -24,9 +16,16 @@
     width: 100%;
     height: 100%;
 }
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
 
-
-.form{
+form{
     
     max-width: 430px;
     width: 100%;
@@ -147,7 +146,14 @@ a.facebook i{
     justify-content: center;
    
 }
-
+.header-signup{
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 900;
+}
 
 a.google{
     border: 1px solid #CACACA;
@@ -167,5 +173,3 @@ a.google span{
     }
     
 }
-
-

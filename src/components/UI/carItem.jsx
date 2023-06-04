@@ -1,5 +1,4 @@
 import React from 'react'
-import { useMediaQuery } from 'react-responsive';
 import '../../styles/carItem.css'
 import Car from '../UI/singleCar'
 

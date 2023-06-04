@@ -35,7 +35,7 @@ const login = () => {
                             </form>
 
                             <div class="form-link">
-                                <span>Don't have an account? </span> <Link > <span className='signup'> Signup</span></Link>
+                                <span>Don't have an account? </span> <Link to='/signup'> <span className='signup'> Signup</span></Link>
                             </div>
                         </div>
 
