@@ -4,6 +4,9 @@ import { useParams } from 'react-router-dom'
 
 
 import Detail from '../components/UI/DetailCarTop'
+import Header from '../components/Header/Header'
+import Footer from'../components/Footer/Footer'
+
 
 
 const CarDetail = () => {
@@ -11,7 +14,9 @@ const CarDetail = () => {
   
   return (
     <div>
-      <Detail/>
+      <Header/>
+        <Detail/>
+      <Footer/>
     </div>
   )
 }

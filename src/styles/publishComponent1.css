@@ -1,0 +1,153 @@
+.empty-div4{
+    width: 100%;
+    margin-top: 300px;
+}
+
+.publish-navigation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.car-icon{
+    width: 100%;
+    text-align:  center;
+}
+.arrow-icon{
+    width: 100%;
+    text-align:  center;
+}
+.image-icon{
+    width: 100%;
+    text-align:  center;
+}
+.file-icon{
+    width: 100%;
+    text-align:  center;
+}
+.car-icon i{
+    font-size: 50px;
+    margin-right: 20px;
+    color: #40A3FF;
+}
+.arrow-icon i{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.file-icon i{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.image-icon i{
+    font-size: 50px;
+    margin-right: 20px;
+    
+}
+
+.first-row4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.second-row4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.third-row4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.title-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.fourth-row4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+.fourth-row4-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.input-fields-sell{
+    width: 300px;
+    max-width: 100%;
+    
+}
+.empty-div5{
+    margin-top: 100px;
+}
+
+.detail-container{
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #CFCFCF;
+    margin-bottom: 100px;
+}
+.dropdown-sell{
+    background-color: #CFCFCF;
+}
+
+.fifth-row{
+    width: 100%;
+    text-align: end;
+    padding: 20px;
+}
+.fifth-row .next-btn{
+    background: #40A3FF;
+border-radius: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+@media (max-width:600px) {
+    .first-row4{
+        width: 100%;
+       display: block;
+        justify-content: center;
+    }
+    .second-row4{
+        width: 100%;
+        display: block;
+        justify-content: center;
+    }
+    .third-row4{
+        width: 100%;
+        display: block;
+        justify-content: center;
+    }
+    .title-row{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .fourth-row4{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+    
+    }
+    .fourth-row4-2{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+}
+

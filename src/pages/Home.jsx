@@ -7,6 +7,8 @@ import Devider from '../components/UI/devider'
 import CarItem from '../components/UI/carItem'
 import Partners from '../components/UI/partners'
 import "../../src/styles/homeimage.css";
+import Header from '../components/Header/Header'
+import Footer from'../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -14,6 +16,7 @@ const Home = () => {
       <div className="img-container">
         <img src={Background} alt="Image" className="responsive-image" style={{ width: '100%' }}/>
       </div>
+      <Header/>
       <SearchBox />
       <Welcomebox />
       <Devider />
@@ -23,6 +26,7 @@ const Home = () => {
       <Devider />
       <Partners/> 
       <Devider />
+      <Footer/>
     </div> 
   )
 }

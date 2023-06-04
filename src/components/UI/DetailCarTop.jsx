@@ -3,6 +3,7 @@ import GLA from '../../assets/gla.jpeg'
 import '../../styles/detailcartop.css'
 import { Card, CardHeader, CardBody, CardTitle, CardText } from 'reactstrap'
 import Devider from '../UI/devider'
+import Car from '../../components/UI/singleCar'
 
 const DetailCarTop = () => {
     return (
@@ -10,7 +11,7 @@ const DetailCarTop = () => {
         <div className='upper-part'>
 
             <div className="empty-div2"></div>
-            
+
             <div className="container3">
                 <div className="title">
                     <h3>Mercedes GLA 220d</h3>
@@ -169,7 +170,7 @@ const DetailCarTop = () => {
 
             <Devider />
             <div className="detailed-info">
-                
+
                 <Card
                     className="my-2"
                     color="dark"
@@ -266,6 +267,142 @@ const DetailCarTop = () => {
                         </CardText>
                     </CardBody>
                 </Card>
+            </div>
+
+            <Devider />
+
+            
+
+            <div className="description-about">
+
+                <div class="line-container">
+                    <div class="custom-line"></div>
+                </div>
+                <div class="dealers">
+                    <h3>Detailed description</h3>
+                    <div class="line-container">
+                        <div class="custom-line2"></div>
+                    </div>
+                    <div class="line-container">
+                        <div class="custom-line3"></div>
+                    </div>
+                </div>
+                <div className="description-box">
+                    <div className="description-box2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, consequuntur sint iure maiores ea molestiae repudiandae cupiditate odit quibusdam laborum optio similique id repellat doloribus quasi ab vitae perferendis mollitia!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro molestiae nobis iusto nulla accusantium quia consequuntur. Earum harum impedit, recusandae quis, explicabo labore reprehenderit sequi expedita culpa hic numquam et.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <Devider />
+
+            <div className="user-information-box">
+                <div class="line-container">
+                    <div class="custom-line"></div>
+                </div>
+                <div class="dealers">
+                    <h3>User information</h3>
+                    <div class="line-container">
+                        <div class="custom-line2"></div>
+                    </div>
+                    <div class="line-container">
+                        <div class="custom-line3"></div>
+                    </div>
+                </div>
+
+                <div className="user-info-row">
+                    <i class="ri-user-line"></i>
+
+                    <Card
+                            className="my-3"
+                            color="dark"
+                            outline
+                            style={{
+                                width: '18rem'
+                            }}
+                        >
+                            <CardHeader className='header3'>
+                                <h5>Name</h5>
+                            </CardHeader>
+                            <CardBody>
+
+                                <CardText>
+                                    <h5>Kramar</h5>
+                                </CardText>
+                            </CardBody>
+                        </Card>
+
+                        <Card
+                            className="my-3"
+                            color="dark"
+                            outline
+                            style={{
+                                width: '18rem'
+                            }}
+                        >
+                            <CardHeader className='header3'>
+                                <h5>Address</h5>
+                            </CardHeader>
+                            <CardBody>
+
+                                <CardText>
+                                    <h5>Sarajevo</h5>
+                                </CardText>
+                            </CardBody>
+                        </Card>
+
+                        <Card
+                            className="my-3"
+                            color="dark"
+                            outline
+                            style={{
+                                width: '18rem'
+                            }}
+                        >
+                            <CardHeader className='header3'>
+                                <h5>Contact</h5>
+                            </CardHeader>
+                            <CardBody>
+
+                                <CardText>
+                                    <h5>033-111-111</h5>
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                </div>
+            </div>
+
+            <Devider />
+
+            <div className="detail-similar-cars">
+            <div class="line-container">
+                    <div class="custom-line"></div>
+                </div>
+                <div class="dealers">
+                    <h3>Similar Cars</h3>
+                    <div class="line-container">
+                        <div class="custom-line2"></div>
+                    </div>
+                    <div class="popular-cars-container">
+                <div class="car-item">
+                    <Car />
+                </div>
+
+                <div class="car-item">
+                    <Car />
+                </div>
+
+                <div class="car-item">
+                    <Car />
+                </div>
+
+               
+            </div>
+                </div>
+
+
             </div>
         </div>
 

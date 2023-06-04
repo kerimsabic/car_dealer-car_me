@@ -1,17 +1,17 @@
 import React from 'react'
-import Information from '../components/UI/userInformation'
+import SecondPage from '../components/UI/publishComponent2'
 import Header from '../components/Header/Header'
 import Footer from'../components/Footer/Footer'
 
-const User = () => {
+const PublishCar2 = () => {
   return (
     <div>
        <Header/>
-        <Information/>
-        <Footer/>
+      <SecondPage/>
+      <Footer/>
 
     </div>
   )
 }
 
-export default User
+export default PublishCar2

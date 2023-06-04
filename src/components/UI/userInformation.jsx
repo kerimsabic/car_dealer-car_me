@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { Row, Col, Button } from 'reactstrap';
+import { Button } from 'reactstrap';
 import Kramar from '../../assets/kramar.jpg';
 import '../../styles/userInformation.css';
-import Cars from './carsInSearch';
+import Car from '../UI/singleCar'
+import TwoCars from '../UI/twocars'
+
 
 const UserInformation = () => {
-    const [isButton1Clicked, setIsButton1Clicked] = useState(false);
+  const [isButton1Clicked, setIsButton1Clicked] = useState(false);
   const [isButton2Clicked, setIsButton2Clicked] = useState(false);
 
   const handleButton1Click = () => {
@@ -20,35 +22,94 @@ const UserInformation = () => {
 
   return (
     <div className="userinfo">
+
+      <div className="empty-div3"></div>
+
       <div className="user">
-        <img src={Kramar} alt="" />
-        <Row xs="3" className="row">
-          <Col className="bg-blue border column">Kerim</Col>
-          <Col className="bg-blue border column">ID:1111</Col>
-          <Col className="bg-blue border column">033-222-222</Col>
-          <Col className="bg-blue border column">Sarajevo</Col>
-          <Col className="bg-blue border column2">kerimsabic@stu.ibu.edu.ba</Col>
-        </Row>
+
+        <div className="user-image-container">
+          <img src={Kramar} alt="" />
+        </div>
+
+        <div className="boxes-right">
+          <div className="blue-containers">
+            <div className="first-row">
+              <div className="first-two">
+                <div className="text-boxes1">
+                  <h6>Kerim</h6>
+                </div>
+                <div className="text-boxes2">
+                  <h6>ID:1111</h6>
+                </div></div>
+              <div className="text-boxes">
+                <h6>033-111-111</h6>
+              </div>
+            </div>
+
+            <div className="second-row">
+              <div className="text-boxes">
+                <h6>Sarajevo</h6>
+              </div>
+              <div className="text-boxes">
+                <h6>kerim.sabic@stu.ibu.edu.ba</h6>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
       </div>
-      <div className="buttons">
-        <Row xs="4" row2>
-        <Col
-            className={`bg-color border customCol ${isButton1Clicked ? 'grey' : 'blue'}`}
-          >
-            <Button outline onClick={handleButton1Click}>
-              Button 1
-            </Button>
-          </Col>
-          <Col
-            className={`bg-color border customCol ${isButton2Clicked ? 'grey' : 'blue'}`}
-          >
-            <Button outline onClick={handleButton2Click}>
-              Button 2
-            </Button>
-          </Col>
-        </Row>
+
+      <div className="two-buttons">
+        <div className="right-button">
+          <Button className='active-cars'>Active</Button>
+        </div>
+        <div className="left-button">
+          <Button className='sold-cars'>Sold</Button>
+        </div>
       </div>
-      <Cars/>
+
+      <div className="display-cars">
+
+        <div className="first-row2">
+
+          <div className="first-container">
+            <div className="car-card">
+              <Car />
+            </div>
+          </div>
+          <div className="second-container">
+            <div className="car-card">
+              <Car />
+            </div>
+          </div>
+          <div className="third-container">
+            <div className="car-card">
+              <Car />
+            </div>
+          </div>
+
+        </div>
+        <div className="second-row2">
+        <div className="first-container">
+            <div className="car-card">
+              <Car />
+            </div>
+          </div>
+          <div className="second-container">
+            <div className="car-card">
+              <Car />
+            </div>
+          </div>
+          <div className="third-container">
+            <div className="car-card">
+              <Car />
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   );
 };

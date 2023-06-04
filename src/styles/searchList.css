@@ -56,12 +56,17 @@
 .dropdown-side2{
   width: 245px;
 }
-.input-box2{
+input.input-box2{
   width: 200px;
+  border: 1px solid black;
 }
-.input-fields{
+.input-fields2{
   width: 200px;
+  margin-left: 22px;
 }
+
+
+
 
 
 @media (max-width: 1444px) {
@@ -82,6 +87,6 @@
   }
   .container-side-version2{
     display: block;
-    margin-top: 300px;
+  
   }
 }

@@ -19,12 +19,14 @@
     background-color: #40A3FF;
     color: black;
     width: 100%;
+    border-radius: 30px;
    
 }
 .icon2{
     justify-content: end;
     width: 100%;
     text-align: end;
+    font-size: 20px;
 
 }
 .image-container{
@@ -239,4 +241,45 @@ box-shadow: 0px 4px 4px #40A3FF;
     .specail-cardBody .card-body{
         padding: 0px;
     }
+}
+
+.description-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.description-box2{
+    width: 600px;
+    height: auto;
+    border: 2px solid;
+    text-align: center;
+}
+
+.user-info-row{
+    display: flex;
+    justify-content: center;
+}
+.user-info-row i{
+    font-size: 100px;
+}
+.user-info-row .my-3{
+    text-align: center;
+}
+
+.user-info-row .my-3 .header3{
+    background-color: #40A3FF;
+    
+}
+@media (max-width: 437px ){
+    .user-info-row .my-3{
+        width: 50%;
+    }
+    .user-info-row i{
+       display: none;
+    }
+}
+
+.detail-similar-cars{
+    margin-bottom: 40px;
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import Footer2 from '../UI/footer'
 
 const Footer = () => {
   return (
     <div>
-      Footer
+      <Footer2/>
     </div>
   )
 }
