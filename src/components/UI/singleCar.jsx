@@ -12,7 +12,7 @@ const singleCar = () => {
                     <div class="card">
                         <div class="img"><img src={GLA} alt="" /></div>
                         <div class="info-container">
-                            <div class="eye-icon">
+                            <div class="eye-icon6">
                                 <i class="ri-eye-fill"></i>
                                 <span class="info-number">200</span>
                             </div>

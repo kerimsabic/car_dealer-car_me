@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <div className="img-container">
-        <img src={Background} alt="Image" className="responsive-image" style={{ width: '100%' }}/>
+        <img src={Background} alt="Image" className="responsive-image" style={{ width: '100%',marginTop:'115px'}}/>
       </div>
       <Header/>
       <SearchBox />

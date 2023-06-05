@@ -1,32 +1,30 @@
-.form.signup{
-    opacity: 1;
-    pointer-events: none;
-}
-.back-container2{
+.signup-screen2 .header-signup{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.logo-container2{
-    width: 300px;
-    height: 150px;
+.signup-screen2 .header-signup .image-container10{
+    width: 200px;
+    height: 100px;
 }
-.logo-container2 img{
+.signup-screen2 .header-signup .image-container10 img{
     width: 100%;
     height: 100%;
 }
-.forms.show-signup .form.signup{
-    opacity: 1;
-    pointer-events: auto;
-}
-.forms.show-signup .form.login{
-    opacity: 0;
-    pointer-events: none;
+
+
+
+.signup-screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   
 }
 
-form{
-    
+.form-signup {
+
     max-width: 430px;
     width: 100%;
     padding: 30px;
@@ -36,8 +34,7 @@ form{
     background-size: cover;
 }
 
-
-.login-header{
+.signup-header {
     font-size: 28px;
     font-weight: 600;
     color: #ffffff;
@@ -45,18 +42,21 @@ form{
     font-family: 'Lato';
     font-weight: 900;
 }
-form{
+
+.form-signup {
     margin-top: 30px;
 }
-.form .field{
+
+.form-signup .field {
     position: relative;
     height: 50px;
     width: 100%;
     margin-top: 20px;
     border-radius: 6px;
 }
-.field input,
-.field button{
+
+.input-field5,
+.input-field5 .signup-button2 {
     height: 100%;
     width: 100%;
     border: none;
@@ -64,15 +64,18 @@ form{
     font-weight: 400;
     border-radius: 6px;
 }
-.field input{
+
+.input-field5 input {
     outline: none;
     padding: 0 15px;
     border: 1px solid#CACACA;
 }
-.field input:focus{
+
+.input-field5 input:focus {
     border-bottom-width: 2px;
 }
-.eye-icon{
+
+.eye-icon-signup {
     position: absolute;
     top: 50%;
     right: 10px;
@@ -82,39 +85,18 @@ form{
     cursor: pointer;
     padding: 5px;
 }
-.field button{
-    color: #fff;
-    background-color: #0171d3;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-.field button:hover{
-    background-color: #016dcb;
-}
-.form-link{
-    text-align: center;
-    margin-top: 10px;
-}
-.form-link span, .form-link a{
-    font-size: 14px;
-    font-weight: 400;
-    color: #b1b1b1;
-}
-.form link .signup  {
-    color: #0171d3;
-    text-decoration: none;
-}
-.form-content a:hover{
-    text-decoration: underline;
-}
-.lineOr{
+
+
+
+.lineOr {
     position: relative;
     height: 1px;
     width: 100%;
     margin: 36px 0;
     background-color: #d4d4d4;
 }
-.lineOr::before{
+
+.lineOr::before {
     content: 'Or';
     position: absolute;
     top: 50%;
@@ -126,17 +108,23 @@ form{
     border-radius: 30px;
 }
 
-
-.media-options a{
+.media-options2 a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-a.facebook{
+
+a.facebook {
     color: #fff;
     background-color: #4267b2;
 }
-a.facebook i{
+
+a.facebook:hover {
+    color: #fff;
+    background-color: #2053bb;
+}
+
+a.facebook i {
     height: 28px;
     width: 28px;
     font-size: 20px;
@@ -144,32 +132,54 @@ a.facebook i{
     display: flex;
     align-items: center;
     justify-content: center;
-   
-}
-.header-signup{
-    font-size: 28px;
-    font-weight: 600;
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Lato';
-    font-weight: 900;
+
 }
 
-a.google{
+a.google {
     border: 1px solid #CACACA;
     background-color: #CACACA;
 }
-a.google i{
+
+a.google:hover {
+    border: 1px solid #CACACA;
+    background-color: #e8e8e8;
+}
+
+a.google i {
     margin-right: 10px;
 }
-a.google span{
+
+a.google span {
     font-weight: 500;
     opacity: 0.6;
     color: #232836;
 }
-@media screen and (max-width: 400px) {
-    .form{
-        padding: 20px 10px;
-    }
-    
+
+.form-signup .input-field5 {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.input-field5 input,
+.button-field5 button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.button-field5 button {
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.button-field5 button:hover {
+    background-color: #016dcb;
 }

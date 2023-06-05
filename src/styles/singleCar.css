@@ -68,7 +68,7 @@
     justify-content: flex-end;
 }
 
-.eye-icon {
+.eye-icon6 {
     display: flex;
     align-items: center;
     border: 1px solid #ccc;
@@ -78,7 +78,7 @@
     height: 20px;
 }
 
-.eye-icon i {
+.eye-icon6 i {
     font-weight: bold;
     margin-right: 5px;
 }
@@ -137,3 +137,4 @@
     font-size: 42px;
     color: #263544;
 }
+
